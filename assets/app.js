@@ -26,5 +26,7 @@ decBtn.addEventListener('click',() => {
 
 resetBtn.addEventListener('click',() => {
     counter.innerText = "0";
-    
+    if(counter.innerText==0){
+        counter.style.color = "black";
+    }
 })
